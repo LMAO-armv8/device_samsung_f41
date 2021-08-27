@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Inherit device vendor
-$(call inherit-product-if-exists, vendor/samsung/m31/m31-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/f41/f41-vendor.mk)
 
 # Face unlock - Thanks to Tenshi2112 for the flag
 TARGET_FACE_UNLOCK_SUPPORTED := true
