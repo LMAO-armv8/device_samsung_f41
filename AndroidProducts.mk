@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m31.mk
+    $(LOCAL_DIR)/lineage_f41.mk
 
 COMMON_LUNCH_CHOICES := \
-     lineage_m31-userdebug \
-     lineage_m31-eng \
-     lineage_m31-user
+     lineage_f41-userdebug \
+     lineage_f41-eng \
+     lineage_f41-user
