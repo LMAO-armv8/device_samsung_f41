@@ -14,22 +14,22 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/m31
+DEVICE_PATH := device/samsung/f41
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := m31nsxx,m31xx,m31
+TARGET_OTA_ASSERT_DEVICE := f41nsxx,f41xx,f41
 
 # Display
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_BOOT_HEADER_NAME := SRPSL10A002KU
-TARGET_KERNEL_SOURCE := kernel/samsung/m31
-TARGET_KERNEL_CONFIG := bluefly_m31_defconfig
-BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/m31.cfg
+TARGET_KERNEL_SOURCE := kernel/samsung/f41
+TARGET_KERNEL_CONFIG := bluefly_f41_defconfig
+BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/f41.cfg
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 61865984
