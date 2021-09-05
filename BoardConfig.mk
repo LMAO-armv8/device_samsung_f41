@@ -28,7 +28,7 @@ TARGET_SCREEN_DENSITY := 420
 # Kernel
 BOARD_BOOT_HEADER_NAME := SRPSL10A002KU
 TARGET_KERNEL_SOURCE := kernel/samsung/f41
-TARGET_KERNEL_CONFIG := bluefly_f41_defconfig
+TARGET_KERNEL_CONFIG := exynos9610-f41dd_defconfig
 BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/f41.cfg
 
 # Partitions
