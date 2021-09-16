@@ -56,3 +56,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # Inherit common board flags
 include device/samsung/universal9610-common/BoardConfigCommon.mk
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
