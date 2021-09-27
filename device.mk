@@ -22,6 +22,9 @@ PRODUCT_PACKAGES += \
 # Inherit common device configuration
 $(call inherit-product, device/samsung/universal9610-common/universal9610-common.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2340
