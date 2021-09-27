@@ -59,3 +59,6 @@ include device/samsung/universal9610-common/BoardConfigCommon.mk
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+## Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_f41
