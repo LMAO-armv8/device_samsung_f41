@@ -14,22 +14,22 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/f41
+DEVICE_PATH := device/samsung/m21
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := f41nsxx,f41xx,f41
+TARGET_OTA_ASSERT_DEVICE := m21nsxx,m21xx,m21
 
 # Display
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_BOOT_HEADER_NAME := SRPSL10A002KU
-TARGET_KERNEL_SOURCE := kernel/samsung/f41
-TARGET_KERNEL_CONFIG := exynos9610-f41dd_defconfig
-BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/f41.cfg
+TARGET_KERNEL_SOURCE := kernel/samsung/m21
+TARGET_KERNEL_CONFIG := exynos9610-m21dd_defconfig
+BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/m21.cfg
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 61865984
