@@ -1,3 +1,3 @@
 # Build Fingerprint
-ro.vendor.build.fingerprint=samsung/f41nsxx/f41:10/QP1A.190711.020/F415FXXU1ATK2:user/release-keys
-ro.odm.build.fingerprint=samsung/f41nsxx/f41:10/QP1A.190711.020/F415FXXU1ATK2:user/release-keys
+ro.vendor.build.fingerprint=samsung/m21nsxx/m21:10/QP1A.190711.020/M215FXXU2ATJ5:user/release-keys
+ro.odm.build.fingerprint=samsung/m21nsxx/m21:10/QP1A.190711.020/M215FXXU2ATJ5:user/release-keys
