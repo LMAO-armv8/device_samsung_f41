@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/f41/device.mk)
+$(call inherit-product, device/samsung/m21/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
@@ -32,15 +32,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := f41
-PRODUCT_NAME := lineage_f41
+PRODUCT_DEVICE := m21
+PRODUCT_NAME := lineage_m21
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-F415F
+PRODUCT_MODEL := SM-M215F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-BUILD_FINGERPRINT := samsung/f41nsxx/f41:10/QP1A.190711.020/F415FXXU1ATK2:user/release-keys
+BUILD_FINGERPRINT := samsung/m21nsxx/m21:10/QP1A.190711.020/M215FXXU2ATJ5:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=f41nsxx \
