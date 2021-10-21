@@ -43,5 +43,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 BUILD_FINGERPRINT := samsung/m21nsxx/m21:10/QP1A.190711.020/M215FXXU2ATJ5:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=f41nsxx \
+        PRODUCT_NAME=m21nsxx \
         PRIVATE_BUILD_DESC="m21nsxx-user 10 QP1A.190711.020 M215FXXUATJ5 release-keys"
